@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+.result span{
+    color: rgb(234, 232, 240);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.res{
+    font-size: 50px;
+    font-weight: bold;
+}
+.result{
+    background-color: rgb(77, 138, 168);
+    width: auto;
+    height: 100px;
+    border-radius: 5%;
+    text-align: right;
+    
+
+}
+.exp{
+    font-size: 20px;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    background-color: rgb(8, 35, 48);
+    border-radius: 15%;
+    box-shadow: 5px 3px 52px 20px rgba(233, 236, 235, 0.24);
+}
+.item{
+    color:aliceblue;
+    width: 100px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: rgb(121, 166, 189);
+    cursor: pointer;
+    border-radius: 15%;
+    
+}
+.item:active {
+    transform: scale(0.99);
+    background-color: rgb(161, 219, 255);
+    box-shadow: 5px 3px 52px 1px rgba(236, 233, 233, 0.24);
+    
+}
+.outer{
+    background-color: rgb(77, 138, 168);
+}
+.equal{
+    background-color: rgb(12, 212, 219);
+}
